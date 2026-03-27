@@ -44,3 +44,5 @@ sintaxis: background(v1, v2, v3,
                     siempre debe estar cerrado por { la informacion que le pida el porgrama 
                                                     
   programa para sacar codigos de colores: HTML colors codes, colormode(HSL), 
+
+    SI se quiere hacer una estela de colores swe deb poner el color background en estup, pero si se quiere un fondo plano se color se debe dejar en background
