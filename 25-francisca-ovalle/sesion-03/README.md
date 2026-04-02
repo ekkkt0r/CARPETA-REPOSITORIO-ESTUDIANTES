@@ -1,3 +1,5 @@
+# Sesión 03 - 27/03 Apuntes  
+---
 ## ¿Qué es un algoritmo?
 *Secuencia paso a paso*, logicas, intrucciones, ordenadas y finitas.
 Caracteristicas principales:  
