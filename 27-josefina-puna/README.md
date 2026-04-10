@@ -18,9 +18,14 @@
 
 <img width="1910" height="988" alt="image" src="https://github.com/user-attachments/assets/b5b9a3b9-dd6d-4b0a-b860-83ee5a4153e8" />
 
+### Obra de Inspiración  
+<img width="1800" height="1205" alt="image" src="https://github.com/user-attachments/assets/339729dc-0cd0-49c1-9acf-da58ac7306d6" />
+
+
 ### Dibujo Analogo  
  <img width="1479" height="1482" alt="image" src="https://github.com/user-attachments/assets/9c810fd9-ebc9-45c2-b6f2-a9b01c6c889c" />  
 
 ### Dibujo P5.js
+<img width="751" height="752" alt="image" src="https://github.com/user-attachments/assets/392dabb9-353c-4986-9271-0a6a62696d9d" />
 
 https://editor.p5js.org/Josefina130/sketches/CaU0_R4sP
