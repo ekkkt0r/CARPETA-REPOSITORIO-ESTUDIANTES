@@ -1,45 +1,79 @@
-**CLASE 1**
-# CLASE1
-**ARQUITECTURA DEL PENSAMIENTO**
+# CLASE 2
 
-**BABBAGE**
-- **Máquina Diferencial**: cálculos automáticos
-- **Máquina Analítica**: computadora general
+# GITHUB 
+## GitHub
 
-**JACQUARD**
-- **Tarjetas perforadas**
-- **Sistema binario (1/0)**
+- Plataforma para almacenar, gestionar y compartir código.
+- Usa el sistema de control de versiones Git.
+- Funciona como una especie de red social para programadores.
+- Permite colaborar, seguir cambios y desarrollar proyectos públicos o privados.
 
-**ADA LOVELACE**
-- **Primera programadora**
-- **Primer algoritmo**
-
-**TURING**
-- **Máquina teórica**
-- **Importa el código**
+https://github.com/
 
 ---
 
-**ARTE Y COMPUTACIÓN**
+## Markdown
 
-**1960s**
-- **Arte con algoritmos**
-
-**SKETCHPAD**
-- **Dibujo digital interactivo**
+- Lenguaje de marcado ligero.
+- Sirve para escribir texto con formato usando símbolos simples del teclado.
+- Permite hacer títulos, negritas, listas, links, imágenes y tablas.
 
 ---
 
-**CREATIVE CODING**
+## Saltos de línea
 
-**SOFTWARE LIBRE**
-- **Usar, estudiar, modificar, compartir**
-
-**PROCESSING / P5.JS**
-- **Programación visual simple**
+- Enter dos veces → nuevo párrafo.
+- Dos espacios + Enter → bajar línea.
+- `<br>` → forzar salto de línea.
+- TAB o 4 espacios → sangría.
+- `---` → separar secciones.
 
 ---
 
+## Encabezados
 
-**DIBUJO ABSTRACTO**
-**Links** [IMAGEN](https://drive.google.com/file/d/1J7GcO5AQJKBFvEyDSk4VZ2fKTTAhg21s/view?usp=drive_link)  
+# Título nivel 1  
+## Título nivel 2  
+### Título nivel 3  
+#### Título nivel 4
+
+---
+
+## Formato de texto
+
+**Negrita**  
+*Cursiva*  
+***Negrita y cursiva***  
+~~Tachado~~  
+\# texto
+
+---
+
+## Listas
+
+* Elemento  
+* Elemento  
+  * Sub elemento  
+
+1. Elemento  
+2. Elemento  
+
+- [ ] pendiente  
+- [x] listo  
+
+---
+
+## Links e imágenes
+
+[Nombre](https://url.com)
+
+![Texto](url-imagen.jpg)
+
+[![Texto](url-imagen)](url-destino)
+
+---
+
+## Bloques de código
+
+```python
+print("Hola Mundo")
