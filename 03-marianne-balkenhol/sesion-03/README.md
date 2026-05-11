@@ -7,10 +7,14 @@
 - Proceso → transformación.
 - Output → resultado.
 
+La idea del algoritmo es que si sigo los mismos pasos debería llegar siempre al mismo resultado. Es como una receta, pero aplicada a lógica.
+
 ---
 
 ## **Diagramas de flujo**
 Representación visual de procesos usando simbología estándar para planificar lógica antes de programar.
+
+Sirven mucho para ordenar ideas antes de escribir código. A veces entender el flujo visualmente es más fácil que leer código directamente.
 
 ---
 
@@ -21,6 +25,8 @@ Representación visual de procesos usando simbología estándar para planificar 
 - Java
 - Swift
 - Kotlin
+
+Cada lenguaje tiene enfoques distintos. Algunos se usan más para visuales, otros para apps, páginas web o sistemas más complejos.
 
 ---
 
@@ -40,6 +46,8 @@ function draw(){
 - `setup()` → configuración inicial.
 - `draw()` → loop infinito, movimiento e interacción.
 
+`setup()` ocurre solo una vez, mientras que `draw()` se repite constantemente. Ahí es donde normalmente pasa el movimiento.
+
 ---
 
 ## **Canvas + fondo**
@@ -57,6 +65,8 @@ background(0,0,255,50);
 - En `setup()` queda fijo.
 - En `draw()` se reinicia constantemente.
 
+Si el `background()` está en `draw()`, el dibujo se limpia frame por frame. Si no, empiezan a quedar rastros y “memoria” del movimiento.
+
 ---
 
 ## **Color**
@@ -70,12 +80,16 @@ colorMode(HSL);
 - HSB → Hue, Saturation, Brightness.
 - HSL → Hue, Saturation, Lightness.
 
+RGB funciona más pensando en mezcla de luces, mientras HSB y HSL son más cómodos para controlar tonos y saturación de forma visual.
+
 ---
 
 ## **Sistema coordenadas**
 - `(0,0)` arriba izquierda.
 - X horizontal.
 - Y vertical.
+
+A diferencia del plano cartesiano normal, acá el eje Y crece hacia abajo. Eso al principio igual confunde un poco.
 
 ---
 
@@ -106,6 +120,8 @@ angleMode(DEGREES);
 - 180° → izquierda.
 - 270° → arriba.
 
+Importante: `angleMode(DEGREES)` no crea arcos, solo cambia la forma en que se miden los ángulos.
+
 ---
 
 ## **Bordes + relleno**
@@ -128,5 +144,4 @@ Tipos:
 - SQUARE
 - PROJECT
 
----
-
+`strokeWeight()` cambia muchísimo cómo se siente visualmente una figura. Aunque sea la misma forma, un borde grueso o fino cambia caleta el resultado.
