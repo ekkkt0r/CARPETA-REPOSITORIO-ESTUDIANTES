@@ -80,6 +80,14 @@ ellipse (x , y, 15);
 }
 }
 
+## FrameCount :
 
+Variable numérica que registra la
+cantidad de fotogramas dibujados
+desde que comenzó un boceto. El
+valor de `frameCount` es 0 dentro
+de `setup()`y se incrementa en 1
+cada vez que finaliza la ejecución del
+código en `draw()`.
 
 
