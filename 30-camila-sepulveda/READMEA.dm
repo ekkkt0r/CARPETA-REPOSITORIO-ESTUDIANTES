@@ -7,7 +7,7 @@ un bloque de instrucciones de manera repetida
 mientras se cumpla una condición específica o
 hasta que se alcance un estado determinado, es un estilo de patrón. 
 
-Ejemplo:
+### Ejemplo:
   
 1. Rizo de cabello en forma helicoidal.
 2. Objeto cuya forma recuerda la del bucle.
@@ -20,12 +20,12 @@ mientras no se cumpla una condición previamente establecida.
 Son útiles para repetir instrucciones mientras una condición sea verdadera. Son como sentencias if que se repite, según las instrucciones que se 
 le indica. 
 
-Se desarrola de la siguiente manera: 
+### Se desarrolla de la siguiente manera: 
 
 while (condición booleana) {
 ejecuta este código si es true }
 
-Ejemplo:
+### Ejemplo:
 
 Mientras (x sea menor o igual
 que el alto de mi lienzo) {
@@ -44,4 +44,42 @@ número determinado de veces, es para hacer loops y siempre tienen 4
 elementos que son la inicialización de una variable, Condición booleana (V-F), Actualización ( Incrementación o decrementación),
 Lo que queremos que pasé cuando la condición sea verdadera. 
 
-  
+### Se desarrolla de la siguiente manera: 
+
+for (inicialización variable; condición booleana; actualización){
+
+Lo que queremos que pase cuando la condición sea verdadera
+}
+
+### Ejemplo: 
+
+for (let x=0 ; x <= width; x=x+1) {
+ellipse (x , 200, random(300))
+}
+
+## For dentro de otro for: 
+
+Es cuando se realizan dos instrucciónes o patrones for dentro de uno, generando dos interacciónes, una dentro de la otra. 
+
+
+for (inicialización variable; condición booleana; actualización){
+Lo que queremos que pase cuando la condición sea verdadera
+
+for (inicialización variable; condición booleana; actualización){
+}
+Lo que queremos que pase cuando la condición sea verdadera
+}
+
+### Ejemplo: 
+
+for (let x=0 ; x <= width; x=x+25) {
+
+for (let y=0 ; y <= height; y=y+25) {
+fill (0, 0, 255);
+ellipse (x , y, 15);
+}
+}
+
+
+
+
