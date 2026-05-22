@@ -43,17 +43,14 @@ el acoso callejero.
 Por otro lado, en el algoritmo se procesó con el propósito de construir una circunstancia de cómo se lleva a cabo un 
 acontecimiento de acoso callejero. Para aquello se tuvo que transformar una construcción, primero se coloca la imagen de
 textura de fondo, generando una atmósfera en la escena, acompañado con un movimiento rotate y translate, luego la construcción 
-de figuras, comenzando con el recorrido que realiza el 
-
-género femenino, guiado por un triángulo como base y círculo blanco que lo acontece, ambas figuras se encuentran de inicio
-a fin ubicado en el centro del canvas. Luego se continúa con la representación del género masculino, por medio de los rectángulos 
-y cuadrados rojos, ubicados en los laterales y en la zona inferior del canvas, para después posicionar los ojos del genero masculino,
-por medio del ovalo blanco y el circulo negro, ubicadolos sobre las figuras cuadradas y rectangulares rojas. Para continuar se posiciona 
-sobre el círculo blanco la representación del género femenino, por medio de un óvalo, que contiene fill random, de paletas cromáticas rosadas, 
-además está acompañado de un function map llamado por la variable cambioTamano. Por otro lado se implementó la imagen 2, los ojos de fondo, 
-que está acompañado con la  function mousePressed y el uso de un doble for. Para otra parte se agrega dos funciones de texto, el primero 
-“La calle te observa” y el segundo el complemento de varios textos que son “princesa”, “mamacita”, “a donde va”, “mansa yegua”, “estai como pa mi”,
-“que shortcito”, “cosita”, “preciosa”, “deliciosa”, “fiu fiu”, “wuaxita rica”, “que buena está”, “tira un besito”, “guapa”, “muñequita”, “bombón”,
+de figuras, comenzando con el recorrido que realiza el género femenino, guiado por un triángulo como base y círculo blanco que lo
+acontece, ambas figurasse encuentran de inicioa fin ubicado en el centro del canvas. Luego se continúa con la representación del 
+género masculino, por medio de los rectángulos y cuadrados rojos, ubicados en los laterales y en la zona inferior del canvas, para 
+después posicionar los ojos del genero masculino,por medio del ovalo blanco y el circulo negro, ubicadolos sobre las figuras cuadradas
+y rectangulares rojas. Para continuar se posiciona sobre el círculo blanco la representación del género femenino, por medio de un óvalo, 
+que contiene fill random, de paletas cromáticas rosadas, además está acompañado de un function map llamado por la variable cambioTamano. 
+Por otro lado se implementó la imagen 2, los ojos de fondo, que está acompañado con la  function mousePressed y el uso de un doble for.
+Para otra parte se agrega dos funciones de texto, el primero “La calle te observa” y el segundo el complemento de varios textos que son “princesa”, “mamacita”, “a donde va”, “mansa yegua”, “estai como pa mi”,“que shortcito”, “cosita”, “preciosa”, “deliciosa”, “fiu fiu”, “wuaxita rica”, “que buena está”, “tira un besito”, “guapa”, “muñequita”, “bombón”,
 “rica carne” y “hermosa”, que está acompañado de la condicional if y para finalizar se agrega un cuadrado rojo acompañado de la condicional else if. 
 
 Esta composición causa una respuesta visual, transmitiendo sensaciones, demostrando sucesos, para así reflejar como resultado final 
