@@ -90,6 +90,8 @@ situaciones en una sociedad, donde no son comúnmente nombradas.
 
 ![imagen](Diagrama de flujo.png)
 
+https://drive.google.com/file/d/1sFt1s7UrEZgSzHyhZ89CJ8b6LfMzWqao/view?usp=share_link
+
 
 ## Código en p5.js: 
 
